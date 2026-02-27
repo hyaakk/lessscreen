@@ -1,0 +1,9 @@
+:root {
+  --color-primary: #ecfffb;
+  --color-tittle: #b4f1f1;
+  --color-background: #1e6262;
+  --color-background-2: #002f2f46;
+  --color-actions: #2d767f;
+  --font-standard: "Krona One", sans-serif;
+  --container-width: 1200px;
+}

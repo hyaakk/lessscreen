@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LessScreen</title>
+
+    <link rel="stylesheet" href="./css/reset.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/variaveis.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/3c6c897cc9.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header class="toolbar">
+      <div class="toolbar-container">
+        <div class="brand">
+          <img
+            src="assets/images/logo-icon.png"
+            alt="Logo LessScreen"
+            class="logo"
+          />
+          <span class="brand-name">LessScreen</span>
+        </div>
+
+        <nav class="navigation">
+          <a href="#inicio" class="nav-link">início</a>
+          <a href="#conscientizacao" class="nav-link">conscientização</a>
+          <a href="#avaliacao" class="nav-link">avaliação</a>
+          <a href="#sobre" class="nav-link">sobre</a>
+        </nav>
+
+        <div class="social-links">
+          <a href="https://github.com/hyaakk" aria-label="GitHub"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="#" aria-label="Instagram"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="#" aria-label="Twitter"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- HERO -->
+      <section class="main-firts hero" id="inicio">
+        <img
+          src="assets/images/main-intro.png"
+          alt="Pessoa utilizando o celular em um ambiente escuro"
+          class="img-main"
+        />
+
+        <div class="hero-content">
+          <div class="figura-1">
+            <h1>
+              Saúde digital
+              <br />
+              começa pelos olhos
+            </h1>
+          </div>
+
+          <div class="figura-2">
+            <p>
+              Celulares, computadores e tablets fazem parte da rotina. O
+              problema começa quando o uso excessivo vira hábito automático.
+              Longos períodos em frente às telas podem afetar tanto o corpo
+              quanto a mente.
+            </p>
+            <p>
+              Aqui, você entende esses impactos e aprende a construir uma rotina
+              digital mais equilibrada.
+            </p>
+            <div class="hero-actions">
+              <a href="#avaliacao" class="hero-button primary"
+                >Avaliar meu uso</a
+              >
+              <a href="#conscientizacao" class="hero-button outline"
+                >Quero saber mais</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- IMPACTOS DO USO PROLONGADO -->
+      <section class="section impact-section" id="conscientizacao">
+        <div class="section-header">
+          <h2>Impactos do uso prolongado de telas</h2>
+          <p>
+            O excesso de tempo em frente às telas pode gerar consequências
+            físicas e emocionais. Veja alguns dos principais pontos de atenção.
+          </p>
+        </div>
+
+        <div class="cards-grid">
+          <article class="impact-card">
+            <h3>Fadiga visual digital</h3>
+            <p>
+              Olhos secos, ardência, visão embaçada e dores de cabeça podem ser
+              sinais de esforço visual intenso ao encarar telas por muito tempo.
+            </p>
+            <button class="card-button">Ver detalhes</button>
+          </article>
+
+          <article class="impact-card">
+            <h3>Postura e coluna</h3>
+            <p>
+              Passar horas curvado sobre o celular ou computador sobrecarrega a
+              coluna, ombros e pescoço, favorecendo dores e lesões a longo
+              prazo.
+            </p>
+            <button class="card-button">Ver detalhes</button>
+          </article>
+
+          <article class="impact-card">
+            <h3>Sono e descanso</h3>
+            <p>
+              A luz azul das telas à noite pode atrasar o sono, reduzir a
+              qualidade do descanso e impactar diretamente seu humor e foco no
+              dia seguinte.
+            </p>
+            <button class="card-button">Ver detalhes</button>
+          </article>
+        </div>
+      </section>
+
+      <!-- AVALIAÇÃO DE TEMPO DE TELA -->
+      <section class="section assessment-section" id="avaliacao">
+        <div class="section-header">
+          <h2>Avalie seu tempo de tela</h2>
+          <p>
+            Informe sua idade e quanto tempo por dia você passa em frente às
+            telas para descobrir se o uso está dentro do recomendado.
+          </p>
+        </div>
+
+        <div class="assessment-card">
+          <div class="assessment-device">
+            <i class="fa-solid fa-eye fa-6x"></i>
+          </div>
+
+          <form class="assessment-form" autocomplete="off">
+            <div class="form-group">
+              <label for="idade">Idade</label>
+              <input
+                type="number"
+                class="input-idade"
+                name="idade"
+                min="0"
+                placeholder="Digite sua idade em anos"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="tempoTela">Tempo de tela</label>
+              <input
+                type="number"
+                class="input-horas"
+                name="tempoTela"
+                min="0"
+                placeholder="Digite o tempo de tela"
+              />
+            </div>
+
+            <button type="button" class="btnVerificar">Verificar</button>
+
+            <p class="assessment-disclaimer">
+              *Estimativa baseada em recomendações gerais de uso de telas para
+              diferentes faixas etárias. Não substitui orientação profissional.
+            </p>
+
+            <p id="resultadoUso" class="assessment-result"></p>
+          </form>
+        </div>
+      </section>
+
+      <!-- RESPONSÁVEL TÉCNICO -->
+      <section class="section about-section" id="sobre">
+        <div class="about-card">
+          <div class="about-avatar">
+            <span class="avatar-initials">HS</span>
+          </div>
+
+          <div class="about-content">
+            <p class="about-label">Responsável técnico</p>
+            <h2>HARRISON DE O. SANTOS</h2>
+            <p>
+              Aluno do curso Técnico em Desenvolvimento de Sistemas no SENAI
+              Ernesto Ilharco de M. Torres. Tenho interesse em criar soluções
+              digitais que sejam simples, acessíveis e que ajudem as pessoas a
+              se relacionarem com a tecnologia de forma prática e sustentável.
+            </p>
+
+            <p class="about-role">
+              Estudante SENAI | Desenvolvimento de Sistemas | Front-end em
+              formação
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-column">
+          <h4>SaúdeDigital</h4>
+          <p>
+            Promovendo o uso consciente das telas para uma vida mais equilibrada
+            e saudável no mundo digital.
+          </p>
+        </div>
+
+        <div class="footer-column">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#conscientizacao">Conscientização</a></li>
+            <li><a href="#avaliacao">Avaliação</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>Conecte-se</h4>
+          <p>Siga o projeto nas redes e compartilhe boas práticas de uso.</p>
+          <div class="footer-social">
+            <a href="https://github.com/hyaakk" aria-label="GitHub"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a href="#" aria-label="Instagram"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="#" aria-label="Twitter"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026 LessScreen. Todos os direitos reservados.</span>
+      </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
