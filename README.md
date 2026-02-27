@@ -41,6 +41,10 @@ LessScreen is a web project designed to raise awareness about excessive screen u
 Harrison O. Santos
 Technical Student in Systems Development (SENAI)
 
+## Link to acess
+
+https://hyaakk.github.io/frontend-labs/
+
 ---
 
 More projects coming soon.
