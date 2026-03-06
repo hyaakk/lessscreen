@@ -1,4 +1,4 @@
-🚀 Frontend Labs
+#🚀 Frontend Labs
 
 Repositório dedicado aos meus projetos de desenvolvimento Front-end, explorando conceitos modernos de construção de interfaces web, organização de código e boas práticas de desenvolvimento.
 
