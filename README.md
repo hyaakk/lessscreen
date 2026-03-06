@@ -1,57 +1,77 @@
-Projetos Front-end
+🚀 Frontend Labs
 
-Este repositório contém meus projetos de desenvolvimento front-end, construídos utilizando as seguintes tecnologias:
+Repositório dedicado aos meus projetos de desenvolvimento Front-end, explorando conceitos modernos de construção de interfaces web, organização de código e boas práticas de desenvolvimento.
 
-HTML5
+O objetivo deste repositório é praticar, experimentar e evoluir minhas habilidades como desenvolvedor, construindo aplicações web funcionais e bem estruturadas.
 
-CSS3
+🧠 Tecnologias Utilizadas
 
-JavaScript (ES6+)
+Os projetos deste repositório são construídos utilizando tecnologias fundamentais do desenvolvimento web:
 
-Projetos
-1. LessScreen
+HTML5 — Estrutura semântica e acessível
 
-Uma aplicação web focada em promover o uso consciente de telas e incentivar hábitos de saúde digital.
+CSS3 — Estilização moderna e layouts responsivos
 
-Funcionalidades:
+JavaScript (ES6+) — Interatividade e manipulação do DOM
 
-Avaliação do tempo de uso de tela
+Essas tecnologias formam a base da web moderna e são essenciais para qualquer desenvolvedor front-end.
 
-Seções informativas sobre saúde digital
+📂 Projetos
+🟢 LessScreen
 
-Layout responsivo
+Uma aplicação web criada para conscientizar sobre o uso excessivo de telas e incentivar práticas de bem-estar digital.
 
-Interface limpa e organizada
+Vivemos em uma era em que grande parte do nosso tempo é consumida por dispositivos digitais. O LessScreen foi desenvolvido como uma forma simples de ajudar usuários a refletirem sobre seus hábitos digitais.
 
-LessScreen
+✨ Funcionalidades
 
-LessScreen é um projeto web desenvolvido para conscientizar sobre o uso excessivo de telas e incentivar o bem-estar digital.
+📊 Calculadora de tempo de tela
+Permite estimar quanto tempo o usuário passa diariamente em dispositivos digitais.
 
-Tecnologias Utilizadas
+📚 Conteúdo informativo sobre saúde digital
+Explica os impactos do uso excessivo de telas.
 
-HTML5 — estrutura semântica da página
+📱 Layout responsivo
+Interface adaptada para computadores, tablets e smartphones.
 
-CSS3 — estilização com arquitetura modular
+🧩 Interface limpa e organizada
+Design focado em simplicidade e boa experiência do usuário.
 
-JavaScript — manipulação do DOM e interatividade
+⚙️ Tecnologias do Projeto
 
-Funcionalidades
+O projeto foi construído utilizando:
 
-Calculadora de tempo de uso de tela
+Tecnologia	Função
+HTML5	Estrutura semântica da aplicação
+CSS3	Estilização e responsividade
+JavaScript	Interatividade e manipulação do DOM
+🌐 Acesse o Projeto
 
-Layout responsivo (adaptável para diferentes dispositivos)
+Você pode visualizar o projeto funcionando no GitHub Pages:
 
-Estrutura de formulário acessível
-
-Interface limpa e intuitiva
-
-Autor
-
-Harrison O. Santos
-Estudante Técnico em Desenvolvimento de Sistemas — SENAI
-
-Acesso ao Projeto
-
+🔗
 https://hyaakk.github.io/frontend-labs/
 
-Mais projetos em breve.
+👨‍💻 Autor
+
+Harrison O. Santos
+
+Estudante Técnico em Desenvolvimento de Sistemas — SENAI
+
+Interesses em:
+
+Desenvolvimento Web
+
+Front-end Engineering
+
+📈 Objetivo do Repositório
+
+Este repositório faz parte do meu processo de aprendizado em desenvolvimento web. Aqui compartilho projetos criados para:
+
+praticar conceitos de programação
+
+desenvolver interfaces web modernas
+
+aplicar boas práticas de código
+
+construir um portfólio técnico
