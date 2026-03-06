@@ -3,7 +3,7 @@
 </div>
 
 
-<div align="center">
+<div align="left">
   <img src="https://github.com/user-attachments/assets/27f30814-4dd6-49db-8245-7be04160e38c" alt="lucario" width="100">
 </div>
 
