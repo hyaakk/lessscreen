@@ -2,8 +2,8 @@
   <img width="50" height="60" alt="star" src="" />
 </div>
 
-<div align="left">
-<img src="https://skillicons.dev/icons?i=html,css,js,py,java,vscode" alt="Tech Stack"; width=300px />
+<div align="center">
+<img src="https://skillicons.dev/icons?i=html,css,js,vscode" alt="Tech Stack"; width=300px />
   </div>
 
   <h1>LessScreen</h1>
