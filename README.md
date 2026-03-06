@@ -1,77 +1,141 @@
-#🚀 Frontend Labs
+<div align="right">
+  <img width="50" height="60" alt="star" src="https://github.com/user-attachments/assets/faaa998a-6ee7-48f8-95d1-f8ca3565cd01" />
+</div>
 
-Repositório dedicado aos meus projetos de desenvolvimento Front-end, explorando conceitos modernos de construção de interfaces web, organização de código e boas práticas de desenvolvimento.
+<div align="left">
+  <div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 20px;">
+    <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">
+      <img src="https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+    </a>
+    <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank">
+      <img src="https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+    </a>
+    <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank">
+      <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+    </a>
+  </div>
 
-O objetivo deste repositório é praticar, experimentar e evoluir minhas habilidades como desenvolvedor, construindo aplicações web funcionais e bem estruturadas.
+  <h1>LessScreen</h1>
+  <p><strong>Menos tela. Mais vida real.</strong></p>
+</div>
 
-🧠 Tecnologias Utilizadas
+---
 
-Os projetos deste repositório são construídos utilizando tecnologias fundamentais do desenvolvimento web:
+# Sobre o Projeto
 
-HTML5 — Estrutura semântica e acessível
+O **LessScreen** é uma aplicação web desenvolvida para **conscientizar sobre o uso excessivo de telas** e incentivar práticas de **bem-estar digital**.
 
-CSS3 — Estilização moderna e layouts responsivos
+A proposta do projeto é simples: ajudar o usuário a refletir sobre **quanto tempo passa diante de dispositivos digitais** e mostrar possíveis impactos desse hábito no dia a dia.
 
-JavaScript (ES6+) — Interatividade e manipulação do DOM
+Através de uma interface clara e intuitiva, o site oferece uma **calculadora de tempo de tela**, além de conteúdos informativos sobre saúde digital.
 
-Essas tecnologias formam a base da web moderna e são essenciais para qualquer desenvolvedor front-end.
+> "Tecnologia deve ampliar a vida, não substituí-la."
 
-📂 Projetos
-🟢 LessScreen
+---
 
-Uma aplicação web criada para conscientizar sobre o uso excessivo de telas e incentivar práticas de bem-estar digital.
+# Design e Conceito
 
-Vivemos em uma era em que grande parte do nosso tempo é consumida por dispositivos digitais. O LessScreen foi desenvolvido como uma forma simples de ajudar usuários a refletirem sobre seus hábitos digitais.
+O design do projeto busca equilíbrio entre **simplicidade e clareza visual**, priorizando:
 
-✨ Funcionalidades
+- interface limpa  
+- navegação intuitiva  
+- leitura confortável  
+- experiência acessível  
 
-📊 Calculadora de tempo de tela
-Permite estimar quanto tempo o usuário passa diariamente em dispositivos digitais.
+A estrutura visual foi pensada para facilitar o entendimento das informações e permitir uma interação rápida com o usuário.
 
-📚 Conteúdo informativo sobre saúde digital
-Explica os impactos do uso excessivo de telas.
+### ▶️ Preview da Interface
 
-📱 Layout responsivo
-Interface adaptada para computadores, tablets e smartphones.
+<div align="center">
+  <img src="https://via.placeholder.com/900x450.png?text=Preview+LessScreen" width="80%">
+  <p><em>Interface simples e focada na experiência do usuário.</em></p>
+</div>
 
-🧩 Interface limpa e organizada
-Design focado em simplicidade e boa experiência do usuário.
+---
 
-⚙️ Tecnologias do Projeto
+# Responsividade
 
-O projeto foi construído utilizando:
+O projeto foi desenvolvido com **layout responsivo**, garantindo funcionamento adequado em diferentes dispositivos:
 
-Tecnologia	Função
-HTML5	Estrutura semântica da aplicação
-CSS3	Estilização e responsividade
-JavaScript	Interatividade e manipulação do DOM
-🌐 Acesse o Projeto
+- 📱 Smartphones  
+- 💻 Computadores  
+- 📟 Tablets  
 
-Você pode visualizar o projeto funcionando no GitHub Pages:
+A adaptação é feita utilizando **media queries no CSS**, permitindo que os elementos se reorganizem conforme o tamanho da tela.
 
-🔗
-https://hyaakk.github.io/frontend-labs/
+<div align="center">
+  <img src="https://via.placeholder.com/700x300.png?text=Media+Query+Example" width="60%">
+  <p><em>Exemplo de ajuste de layout utilizando media queries.</em></p>
+</div>
 
-👨‍💻 Autor
+---
 
-Harrison O. Santos
+# Funcionalidades
 
-Estudante Técnico em Desenvolvimento de Sistemas — SENAI
+### Calculadora de Tempo de Tela
 
-Interesses em:
+O usuário informa:
 
-Desenvolvimento Web
+- idade  
+- tempo médio de uso diário de telas  
 
-Front-end Engineering
+Com base nesses dados, o sistema retorna um diagnóstico:
 
-📈 Objetivo do Repositório
+🟢 **Uso consciente**  
+🟡 **Uso moderado**  
+🔴 **Uso excessivo**
 
-Este repositório faz parte do meu processo de aprendizado em desenvolvimento web. Aqui compartilho projetos criados para:
+---
 
-praticar conceitos de programação
+### Conteúdo Informativo
 
-desenvolver interfaces web modernas
+O site apresenta informações sobre possíveis impactos do excesso de telas:
 
-aplicar boas práticas de código
+- fadiga ocular  
+- problemas de postura  
+- impacto no sono  
+- dependência digital  
 
-construir um portfólio técnico
+---
+
+### Interface Responsiva
+
+O layout se adapta automaticamente para diferentes resoluções de tela, garantindo boa experiência em qualquer dispositivo.
+
+---
+
+# Demonstração da Aplicação
+
+<div align="center">
+  <img src="https://via.placeholder.com/900x450.png?text=Calculadora+LessScreen" width="80%">
+  <p><em>Demonstração da calculadora de tempo de tela.</em></p>
+</div>
+
+---
+
+# Acesse o Projeto Online
+
+<div align="center">
+
+<a href="https://hyaakk.github.io/frontend-labs/" target="_blank">
+<img src="https://img.shields.io/badge/-ACESSAR PROJETO-181717?style=for-the-badge&logo=github&logoColor=white">
+</a>
+
+</div>
+
+---
+
+# Tecnologias Utilizadas
+
+- **HTML5**  
+Estrutura semântica da página.
+
+- **CSS3**  
+Estilização, layout responsivo e organização visual.
+
+- **JavaScript (ES6+)**  
+Manipulação do DOM e lógica da calculadora.
+
+---
+
+# Estrutura do Projeto
