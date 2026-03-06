@@ -1,50 +1,57 @@
-# Frontend Projects
+Projetos Front-end
 
-This repository contains my front-end development projects built using:
+Este repositório contém meus projetos de desenvolvimento front-end, construídos utilizando as seguintes tecnologias:
 
-- HTML5
-- CSS3
-- JavaScript (ES6+)
+HTML5
 
-## Projects
+CSS3
 
-### 1. LessScreen
-A web application focused on promoting conscious screen usage and digital health.
+JavaScript (ES6+)
 
-Features:
-- Screen time evaluation
-- Informational sections about digital health
-- Responsive layout
-- Clean UI structure
+Projetos
+1. LessScreen
 
----
+Uma aplicação web focada em promover o uso consciente de telas e incentivar hábitos de saúde digital.
 
-# LessScreen
+Funcionalidades:
 
-LessScreen is a web project designed to raise awareness about excessive screen usage and promote digital well-being.
+Avaliação do tempo de uso de tela
 
-## Technologies
+Seções informativas sobre saúde digital
 
-- HTML5 (semantic structure)
-- CSS3 (modular architecture)
-- JavaScript (DOM manipulation)
+Layout responsivo
 
-## Features
+Interface limpa e organizada
 
-- Screen time calculator
-- Responsive layout
-- Accessible form structure
-- Clean UI
+LessScreen
 
-## Author
+LessScreen é um projeto web desenvolvido para conscientizar sobre o uso excessivo de telas e incentivar o bem-estar digital.
+
+Tecnologias Utilizadas
+
+HTML5 — estrutura semântica da página
+
+CSS3 — estilização com arquitetura modular
+
+JavaScript — manipulação do DOM e interatividade
+
+Funcionalidades
+
+Calculadora de tempo de uso de tela
+
+Layout responsivo (adaptável para diferentes dispositivos)
+
+Estrutura de formulário acessível
+
+Interface limpa e intuitiva
+
+Autor
 
 Harrison O. Santos
-Technical Student in Systems Development (SENAI)
+Estudante Técnico em Desenvolvimento de Sistemas — SENAI
 
-## Link to acess
+Acesso ao Projeto
 
 https://hyaakk.github.io/frontend-labs/
 
----
-
-More projects coming soon.
+Mais projetos em breve.
