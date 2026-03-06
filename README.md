@@ -1,7 +1,3 @@
-<div align="right">
-  <img width="50" height="60" alt="star" src="" />
-</div>
-
 <div align="center">
 <img src="https://skillicons.dev/icons?i=html,css,js,vscode" alt="Tech Stack"; width=300px />
   </div>
