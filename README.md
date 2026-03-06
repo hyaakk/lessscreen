@@ -44,32 +44,6 @@ O design do projeto busca equilíbrio entre **simplicidade e clareza visual**, p
 
 A estrutura visual foi pensada para facilitar o entendimento das informações e permitir uma interação rápida com o usuário.
 
-### ▶️ Preview da Interface
-
-<div align="center">
-  <img src="https://via.placeholder.com/900x450.png?text=Preview+LessScreen" width="80%">
-  <p><em>Interface simples e focada na experiência do usuário.</em></p>
-</div>
-
----
-
-# Responsividade
-
-O projeto foi desenvolvido com **layout responsivo**, garantindo funcionamento adequado em diferentes dispositivos:
-
-- 📱 Smartphones  
-- 💻 Computadores  
-- 📟 Tablets  
-
-A adaptação é feita utilizando **media queries no CSS**, permitindo que os elementos se reorganizem conforme o tamanho da tela.
-
-<div align="center">
-  <img src="https://via.placeholder.com/700x300.png?text=Media+Query+Example" width="60%">
-  <p><em>Exemplo de ajuste de layout utilizando media queries.</em></p>
-</div>
-
----
-
 # Funcionalidades
 
 ### Calculadora de Tempo de Tela
