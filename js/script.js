@@ -4,10 +4,10 @@ const inputHoras = document.querySelector(".input-horas");
 const btnVerificar = document.querySelector(".btnVerificar");
 const campoResultado = document.querySelector("#resultadoUso");
 
-// Função que executa o cálculo
+// Função que executa o cálculo 
 function calcularUso() {
-  const idade = parseFloat(inputIdade.value);
-  const horas = parseFloat(inputHoras.value);
+  const idade = document.querySelector(".input-idade").value;
+  const horas = document.querySelector(".input-horas").value;
 
   // Para impedir que o usuario não preencha os campos  
   if (idade === "" || horas === "");
@@ -57,5 +57,5 @@ function calcularUso() {
   campoResultado.textContent = mensagem;
 }
 
-// Ouvinte de evento: quando clicar no botão, chama a função
+
 btnVerificar.addEventListener("click", calcularUso);
